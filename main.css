@@ -1,0 +1,113 @@
+* {
+    font-family: Verdana;
+    font-size: 18px;
+}
+
+body {
+    padding: 1vw;
+}
+
+h1, h2 {
+    color: red;
+}
+h1 {
+    text-align: center;
+    font-size: 32px;
+    margin-bottom: 1em;
+}
+h2 {
+    font-size: 22px;
+    margin: 0.5em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+.pb {
+    color: rgb(0, 201, 0);
+    font-weight: bold;
+}
+
+.imp {
+    color: red;
+}
+
+.desc {
+    text-align: center;
+}
+
+table, thead, tbody, th, tr, td {
+    padding: 6px;
+    border-collapse: collapse;
+}
+
+table {
+    border: 2px solid black;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+th, tr, td {
+    border: 1px solid black;
+}
+
+.dot {
+    height: 1.5em;
+    width: 1.5em;
+    background-color: #bbb;
+    border: 1px solid black;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+img {
+    max-height: 50vw;
+    max-width: 50vw;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.vec {
+    position: relative;
+}
+.vec::before{
+    content: "\2192";
+    position: absolute;
+    top: -0.6em;
+    left: -0.2em;
+}
+
+.divi {
+    border: none;
+    display: inline;
+    vertical-align: 50%;
+}
+.divi tr, .divi tr td {
+    padding: 2px;
+    text-align: center;
+    border: none;
+}
+.divi tr:first-child {
+    border-bottom: 1px solid black;
+}
+.dr tr:first-child {
+    border-bottom: 1px solid red;
+}
+
+sup {
+    font-size: 0.8em;
+}
+
+a:visited {
+    color: rgb(255, 100, 100);
+}
+
+#index a {
+    color: black;
+}
+#index a:visited {
+    color: rgb(100, 100, 100);
+}
+#index a::before {
+    content: "- ";
+}

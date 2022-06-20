@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Les mouvements</title>
+        <link rel="stylesheet" href="../main.css" />
+    </head>
+    <body>
+        <h1 id="title">Les mouvements</h1>
+        <h2 id="I">I. Description d'un mouvements</h2>
+        <h2 id="I-1">&emsp;1. Le mouvement</h2>
+        <div>Un objet est en mouvement si, par rapport à un objet de réference, il bouge : par exemple, dans un train, on a l’impression que l’extérieur bouge, mais, par rapport au sol, c’est le train qui bouge.</div><br />
+        <div class="imp">Un objet est en mouvement ou immobile par rapport à un objet de référence appelé le référentiel. Le mouvement d'un objet ou d’un être vivant est caractérisé par :<br />
+            - sa trajectoire (rectiligne - en ligne droite, circulaire - en forme de cercle, ou curviligne - forme des courbes),<br />
+            - et par la valeur de sa vitesse en m/s ou km/h (mouvement accéléré - sa vitesse augmente, mouvement ralenti - sa vitesse diminue, ou mouvement uniforme - sa vitesse est constante).</div>
+        <br />
+        <img src="Mouvement rectiligne uniforme.png" />
+        <div class="desc">Voiture qui roule en ligne droite à vitesse constante : <b>mouvement rectiligne uniforme</b></div>
+        <br />
+        <br />
+        <img src="Mouvement circulaire uniforme.png" />
+        <div class="desc">Nacelle d'une grande roue qui tourne à vitesse constante : <b>mouvement circulaire uniforme</b></div>
+        <br />
+        <br />
+        <img src="Mouvement rectiligne accéléré.png" />
+        <div class="desc">Balle qui chute librement : <b>mouvement rectiligne accéléré</b></div>
+        <br />
+        <h2>&emsp;2. Le système d'étude</h2>
+        <div class="imp">Le système est un objet ou un ensemble d’objets dont on étudie le mouvement. Pour simplifier, on modélise le système par un point, de même masse et situé au centre de gravité de l’objet.<br /><b>Remarque :</b> en réduisant le système à un point, on peut avoir une information incomplète sur le mouvement global de l’objet.</div>
+        <br />
+        <div><b>Exemple :</b><br /><img src="Exemple d'un système.png" />Pour un observateur immobile au bord de la route, le mouvement du point A du drone n’est pas le même que celui du point B. En étudiant le mouvement du point B, on ne se rend pas compte du mouvement du point A.</div>
+        <br />
+        <h2>&emsp;3. Le référentiel d'étude</h2>
+        <div class="imp">Le référentiel est l’objet de référence, supposé fixe, par rapport auquel on étudie le mouvement du système. On choisit le référentiel en fonction du système étudié</div>
+        <table>
+            <thead>
+                <th>Référentiel</th>
+                <th>Terrestre</th>
+                <th>Géocentrique</th>
+                <th>Héliocentrique</th>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><b>Utilisé pour l'étude des mouvements...</b></td>
+                    <td>se produisant sur <b>Terre</b> et dont la <b>durée est inférieure à la durée de rotation de la Terre.</b></td>
+                    <td>à l'échelle de la <b>planète</b>.</td>
+                    <td>à l'échelle du <b>système solaire</b>.</td>
+                </tr>
+                <tr>
+                    <td><b>Exemples</b></td>
+                    <td>Mouvement d'un cycliste, chute d'une balle, etc...</td>
+                    <td>Mouvement de la Lune ou de satellites artificiels autour de la Terre, etc...</td>
+                    <td>Mouvement des planètes autour du Soleil, des comètes, etc...</td>
+                </tr>
+            </tbody>
+        </table>
+        <div><b>Remarque : la relativité du mouvement</b><br />La nature d'un mouvement dépend du référentiel choisi.</div>
+        <br />
+        <br />
+        <h2 id="II">II. Actions et forces</h2>
+        <h2 id="II-1">&emsp;1. Actions mises en jeu dans un système</h2>
+        <h2 id="II-1-a">&emsp;&emsp;a. Qu'est-ce qu'une action ?</h2>
+        <div class="imp">Si un système (objet) 1 agit sur un système (objet) 2, on dit qu’il exerce une action. Réciproquement et simultanément le système 2 exerce une action sur le système 1. Les actions peuvent-être :<br />
+            - De contact, si les 2 systèmes sont en contact<br />
+            - A distance, si les 2 systèmes ne sont pas en contact</div>
+        <br />
+        <h2 id="II-1-b">&emsp;&emsp;b. Les diagrammes « système-interactions » ou « objet-interactions »</h2>
+        <div class="imp">Un diagramme système-action permet de lister les actions entre le système étudié et les systèmes extérieurs. On note les actions de contact par une double-flèche simple et les actions à distance par une double-flèche en pointillés.</div>
+        <br />
+        <div class="desc"><img src="Exemple d'un diagramme d'interactions.png" />Exemple de diagramme d'interactions d'une personne qui saute</div>
+        <br />
+        <h2 id="II-2">&emsp;2. Modélisation d’une action s’exerçant sur un système par une force</h2>
+        <h2 id="II-2-a">&emsp;&emsp;a. La force de pesanteur : le poids d'un corps</h2>
+        <h2 id="II-2-a-A">&emsp;&emsp;&emsp;A. Qu'est-ce que la force de pesanteur ?</h2>
+        <div class="imp">La force de pesanteur est la force d'attraction exercée par la Terre sur les objets qui l'entourent. Elle provoque leur maintien au sol ou leur chute.<br />On appelle cette force <b>le poids</b> <i>(note : ce que l'on appelle habituellement le poids, que l'on mesure par exemple avec une balance, s'appelle en fait <b>la masse</b>)</i>.<br />
+        Le poids se mesure avec un dynamomètre et dépend du lieu où l’objet se situe.
+        </div>
+        <br />
+        <h2 id="II-2-a-B">&emsp;&emsp;&emsp;B. Comment représenter la force de pesanteur ?</h2>
+        <div class="imp">On représente la force de pesanteur par un vecteur <i>(voir <a href="../Mathématiques/Vecteurs.html">les vecteurs en mathématiques</a>)</i>.</div>
+        <div><b>Caractéristiques du poids :</b><br />
+        - Direction : verticale<br />
+        - Sens : vers le bas<br />
+        - Valeur : dépend de l'objet d'étude</div>
+        <br />
+        <h2 id="II-2-a-C">&emsp;&emsp;&emsp;C. Quelle est la relation entre la masse et le poids ?</h2>
+        <div class="imp">La masse est la quantité de matière contenue dans un corps. Elle se mesure avec une balance et son unité dans le système international est le kilogramme.<br />Sa valeur ne dépend pas du lieu où l'objet se situe.<br /><br />
+            <b>Le poids d'un corps</b><br />
+            Le poids <span class="vec">P</span> d'un corps de masse <i>m</i> est la force d'attraction exercée à distance par la Terre sur ce corps. Il a pour caractéristiques :<br />
+            - Direction : verticale du lieu<br />
+            - Sens : vers le centre de la Terre<br />
+            - Valeur : <i>P = m &times; g</i> avec <i>P</i> en Newton <i>(note : le Newton est une unité de mesure portant le nom de son créateur, Isaac Newton, qui permet de mesurer le poids d'un corps)</i>, <i>m</i> en kg et <i>g</i> en N/Kg<sup>-1</sup> <i>(note : si tu tombes sur des unités à la puissance -1, comme le N/Kg<sup><b>-1</b></sup>, fais comme si la puissance n'était pas là)</i>.<br />
+            <br />
+            <h2 id="II-2-b">&emsp;&emsp;b. Comment modéliser des actions ?</h2>
+            <b>La force exercée par un support</b><br />
+            La force exercée par le support ou réaction du support est la force de contact exercée par le support sur le système étudié.<br />
+            Dans le cas d'un système immobile ou en mouvement sans frottements sur une surface lisse, sur lequel ne s'exerce que le poids et la force exercée par le support, la force <span class="vec">R</span> compense exactement le poids de ce corps : <span class="vec">R</span> = -<span class="vec">P</span>.
+        </div>
+        <br />
+        <div class="desc"><img src="Système immobile.png" />Exemple d'un système immobile</div>
+        <br />
+        <br />
+        <div><b>La force exercée par un fil</b><br />
+        La force exercée par un fil ou tension du fil <span class="vec">T</span>, est la force de contact exercée par le fil sur le système étudié. Cette force à la même direction que le fil. Elle est orientée du point d'accroche du système vers le fil.
+        </div>
+        <br />
+        <div class="desc"><img src="Force exercée par un fil.png" />Exemple de la force exercée par un fil sur un système</div>
+        <br />
+        <h2 id="II-2-c">&emsp;&emsp;c. La force de gravitation universelle</h2>
+        <div>La valeur des forces de gravitation s'exerçant entre deux corps A et B dépend à la fois de la masse des corps et de la distance qui les sépare.<br />
+        On la calcule en utilisant la formule suivante :<br />
+        F<sub>A/B</sub> = F<sub>B/A</sub> = G &times; <table class="divi"><tr><td>m(a) &times; m(B)</td></tr><tr><td>d<sup>2</sup></td></tr></table><br />
+        Avec :<br />
+        - m(A) : masse du corps A en kilogramme (kg)<br />
+        - m(B) : masse du corps B en kilogramme (kg)<br />
+        - F<sub>A/B</sub>, F<sub>B/A</sub> : forces de gravitation entre A et B en Newton (N)<br />
+        - d : distance entre le centre de gravité des deux corps en mètre (m)<br />
+        - G : constante de gravitation <i>(note : une constante est une valeur qui ne bougera jamais)</i> : G = 6,67 &times; 10<sup>-11</sup> N/m<sup>2</sup>/kg<sup>-2</sup>
+        </div>
+    </body>
+</html>
